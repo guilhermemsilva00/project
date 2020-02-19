@@ -1,0 +1,72 @@
+.geral3{
+    margin-top: 1098px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 450px;
+    width: 100%;
+    background: rgb(255, 145, 0);
+    display: flex;
+}
+.content3{
+    
+    width: 50%;
+    height: 100%;
+    background: rgb(255, 145, 0);
+    box-sizing: border-box;
+    padding: 30px 50px;
+    font-family: sans-serif;
+    color: #fff;
+
+}
+.imageBox{
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    border-left: 100px solid rgb(255, 145, 0);
+    border-bottom: 400px solid transparent; 
+/* colocar o caminho da imagem */
+    background: url(../img/teste.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* posição do bg */
+    background-position: -20px -70px;
+
+}
+.geral4{
+    margin-top: 1522px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    margin-bottom: 50px;
+}
+.content4{
+    
+    width: 50%;
+    height: 100%;
+    background: #000;
+    box-sizing: border-box;
+    padding: 30px 50px;
+    font-family: sans-serif;
+    color: #fff;
+
+}
+.imageBox1{
+    width: 50%;
+    height: 100%;
+    background: #ff0;
+    box-sizing: border-box;
+    border-left: 100px solid #000;
+    border-bottom: 400px solid transparent; 
+/* colocar o caminho da imagem */
+    background: url(../img/foto02.png); 
+    /* posição do bg */
+    background-position: -200px -150px;
+
+}
